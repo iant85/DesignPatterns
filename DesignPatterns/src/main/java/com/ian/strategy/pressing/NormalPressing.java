@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ian.strategy;
+package com.ian.strategy.pressing;
 
 /**
  * @author Ian

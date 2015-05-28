@@ -1,7 +1,12 @@
 /**
  * 
  */
-package com.ian.strategy;
+package com.ian.strategy.main;
+
+import com.ian.strategy.pressing.AgressivePressing;
+import com.ian.strategy.pressing.DefensivePressing;
+import com.ian.strategy.pressing.NormalPressing;
+import com.ian.strategy.tactics.Defending;
 
 /**
  * @author Ian

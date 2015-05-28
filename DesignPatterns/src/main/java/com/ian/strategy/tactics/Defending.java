@@ -1,7 +1,9 @@
 /**
  * 
  */
-package com.ian.strategy;
+package com.ian.strategy.tactics;
+
+import com.ian.strategy.pressing.Pressing;
 
 /**
  * @author Ian

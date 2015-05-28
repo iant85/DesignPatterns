@@ -1,18 +1,18 @@
 /**
  * 
  */
-package com.ian.strategy;
+package com.ian.strategy.pressing;
 
 /**
  * @author Ian
  *
  */
-public class AgressivePressing implements Pressing {
+public class DefensivePressing implements Pressing {
 
 	/**
 	 * 
 	 */
-	public AgressivePressing() {
+	public DefensivePressing() {
 		
 	}
 
@@ -22,7 +22,7 @@ public class AgressivePressing implements Pressing {
 	@Override
 	public int pressCommand() {
 		
-		return 1;
+		return -1;
 		
 	}
 
