@@ -4,11 +4,10 @@
 package com.ian.strategy.pressing;
 
 /**
- * @author Ian
- * 
  * Interface which focuses on the nature of a press.
  * Indicates how the pressing was made - its power/aggression for instance.
- *
+ * 
+ * @author Ian
  */
 public interface Pressing {
 	

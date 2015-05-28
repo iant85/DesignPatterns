@@ -6,10 +6,9 @@ package com.ian.strategy.tactics;
 import com.ian.strategy.pressing.Pressing;
 
 /**
- * @author Ian
+ * The defensive strategy of a team in game-play.
  * 
- * The defensive strategy of a team in game-play
- *
+ * @author Ian
  */
 public class Defending {
 	
