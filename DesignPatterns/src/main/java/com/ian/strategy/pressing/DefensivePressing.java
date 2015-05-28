@@ -17,7 +17,7 @@ public class DefensivePressing implements Pressing {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.ian.strategy.Movement#move()
+	 * @see com.ian.strategy.pressing.Pressing#press()
 	 */
 	@Override
 	public int pressCommand() {
