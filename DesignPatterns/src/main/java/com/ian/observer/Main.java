@@ -20,17 +20,17 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 
-		StockSubject stockSubject1 = new StockSubject();
+		ConcreteSubject stockSubject1 = new ConcreteSubject();
 
-		new Stock(stockSubject1, "TV", 199.98);
-		new Stock(stockSubject1, "VCR", 144.99);
-		new Stock(stockSubject1, "DVD", 149.89);
+		new ConcreteObserver(stockSubject1, "TV", 199.98);
+		new ConcreteObserver(stockSubject1, "VCR", 144.99);
+		new ConcreteObserver(stockSubject1, "DVD", 149.89);
 
 		// % price increase in overall stock
-		stockSubject1.updatePrice(5);
+		stockSubject1.updateData(5);
 
 		// % price decrease in overall stock
-		stockSubject1.updatePrice(-10);
+		stockSubject1.updateData(-10);
 
 	}
 
